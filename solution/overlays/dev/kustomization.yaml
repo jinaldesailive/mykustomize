@@ -1,7 +1,7 @@
 bases:
 - ../../base
 
-namespace: dev
+namespace: mydev
 
 patches:
 - replicas.yaml

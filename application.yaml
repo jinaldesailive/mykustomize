@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/jinaldesailive/mykustomize.git
+    repoURL: https://github.com/jinaldesailive/mykustomize.git
     targetRevision: HEAD
     path: solution/overlays/dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myk-dev
+    namespace: mydev
 
   syncPolicy:
     syncOptions:
